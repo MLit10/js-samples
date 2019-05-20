@@ -17,7 +17,7 @@ function group_array(array) {
 			new_array[new_item] = [];
 			while (array[item] == array[item+1]) {
 				new_array[new_item][sub_item] = array[item];
-				console.log(' sub'+array[item]);
+				console.log(' subtest'+array[item]);
 				++sub_item;
 				++item;
 			};
